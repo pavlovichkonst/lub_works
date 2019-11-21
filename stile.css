@@ -1,0 +1,317 @@
+html {
+	    margin: 0;
+	    background: #6666cc;
+        background-image: repeating-linear-gradient(10deg,  hsla(0,0%,100%,.1), hsla(0,0%,100%,.1) 10px, transparent 0, transparent 15px);
+        height: 100vh;
+	    overflow: fixed;
+	    background-attachment: fixed;
+	}
+
+body {
+	margin: 0 2em;
+	background: fixed;
+	
+  }
+#main { 
+    padding: 15px;
+    margin:0 4em;
+	display: inline-block;
+ }
+ /* общие стили */	  
+
+@font-face {
+font-family: 'Philosopher BoldItalic';
+src: url('fonts/Philosopher_BoldItalic.ttf');
+}
+
+
+#header { 
+	 
+	  border-top: 4px double blue; /* Параметры границы */
+	  border-right: 4px double blue;
+	  border-left: 4px double blue;
+      padding: 10px; /* Поля вокруг текста */
+	  height: 14em;
+	  width: 49.5em;
+	  font-size: 20px;
+	  margin-left: 13em;
+	  background-color: #9999ff;
+	  border-radius: 15px 15px 0  0;
+	  }	
+.heading {
+	text-shadow: #000099 2px 2px 3px;
+	margin-top: -0.5em;
+	margin-left:8em;
+	position: relative;
+	}
+.dom_myzu {
+	text-shadow: #ffcc66 2px 2px 3px;
+	font-family: 'Philosopher BoldItalic';
+	margin-top: 5em;
+	margin-left: 1em;
+	color: #0000ff;
+	font-size: 43px;
+    position: absolute;
+}
+.text_effect p{
+font-family: 'Philosopher BoldItalic';
+color: rgb(255, 204, 0);
+font-size: 20px;
+margin-left: 28em;
+	margin-top: -5em;
+    position: relative;
+	text-align-last: right;
+}
+.conteiner {
+	  min-height: 70em;
+	  min-width: 80em;
+	 }
+.images {
+	border:none;
+	margin-top: 1em;
+	margin-left: 10em;
+	float: left;
+}
+
+img { 
+    border: none;
+ }
+a {
+	text-decoration: none;
+	color: #000099;
+}
+
+h1 { 
+	 text-align: center;
+     color: #0000ff;
+	 clear: both;
+}
+h2 {
+	text-align: center;
+	color: #0000ff;
+}
+h3 {
+	color: #2F0087;
+}
+h4 {
+	color: #2F0087;
+}
+ p { 
+	 font-size: 20px;
+	 margin-left: 3em;
+	 text-align: justify;
+	 color: #000;
+	 padding: 8px;
+}
+em {
+	font-size:20px;
+	margin-left: 5em;
+	width: 15em;
+	}
+.z { 
+	width: 50em;
+    text-align-last: center;
+	text-align: center;
+}
+.p {
+	font-size: 20px;
+	padding: 8px;
+	margin-left: 2em;
+}
+.text_ind {
+	text-indent: 3em;
+	
+}
+
+.personal h1 {
+	 
+	 color: 666;
+	 left: 1em;
+}
+.names h2 {
+	margin-top: 1em;
+	left: 1em;
+    color: 666;
+}
+.my_pages h5 {
+	margin-top: 1em;
+	color: 666;
+}
+.font-effect-boardgame {
+        font-family: 'Easy Street Alt EPS', Arial;
+        font-size: 48px;
+      }
+.afor_m p { 
+    padding: 5px;
+	color: #0F0E0E;
+	margin-left: 31em;
+	margin-top: -2em;
+}
+.f_main {
+	float: left;
+	height: 330px;
+	width: 450px;
+	border-image: url('images/Openwork frames png/img7.png');
+	margin-left: 4em;
+	}	 
+.im_s {
+	margin-left: 23em;
+	line-height: 2em;
+	
+}
+        
+#content {
+      background-color: #9999ff;
+	  margin-left: 16.3em; 
+	  border-top: 4px double blue; /* Параметры границы */
+	  border-right: 4px double blue;
+	  border-left: 4px double blue;
+      padding: 10px; /* Поля вокруг текста */
+	  min-height: 30em;
+	  width: 61.9em;
+	 }
+.soderganie h3 {
+     margin-left: 20em;
+	 margin-top: 3em;
+}     
+
+.tvorchestvo_pushkina h3{
+	padding: 8px;
+	margin-left: 20em;
+	
+}
+.tvorchestvo_feta {
+	padding: 8px;
+	margin-left: -4em;
+	
+	
+}
+.stihi_nazv{
+	margin-left: 14em;
+	font-size: 22px;
+	color: #000000;
+}
+.s {
+	margin-left: 18em;
+	padding: 6px;
+	font-size: 20px;
+	color: navy;
+	line-height: 1.5em;
+}
+.n {
+	margin-top: 2em;
+}
+.fet_s {
+	text-indent: 21px;
+	padding: 4px;
+	font-size: 20px;
+	color: navy;
+	line-height: 1.5em;
+	
+}
+.galery_txt {
+	margin-top: 6em;
+	text-align: center;
+	padding: 1em;
+}
+.vinsent {
+	margin-top: -2em;
+	text-align: center;
+}
+.text_al {
+	width: 20em;
+	text-align: justify;
+	padding: 2em;
+	margin-top: -3em;
+	margin-left: 25em;
+	text-indent: 3em;
+	}
+.tvorchestvo_van_goga {
+	margin-left: 8em;
+
+}
+ /*navigation menu*/
+#centeredmenu {
+	text-shadow: #ffff00 2px 2px 3px;
+	margin: 0;
+	margin-top: 0;
+	
+	}
+
+ #centeredmenu {
+   float:left;
+   width:100%;
+   background:#0099cc;
+   border-bottom:4px solid #0099cc;
+   overflow:hidden;
+   position:relative;
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#9999ff;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#centeredmenu ul li a:hover {
+   background:#00cccc;
+   color:#fff;
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   color: blue;
+   background:#0099cc;
+   font-weight:bold;
+}
+
+#footer{ 
+   background-color: #9999ff;
+   height: 10em;
+   width: 63.2em;
+   margin-left: 16.3em; 
+   margin-top: 0em;
+   border-radius: 0 0 15px 15px;
+   border-right: 4px double blue;
+   border-left: 4px double blue;
+ }
+.element {
+	margin-left: 25em;
+	margin-top: 2em;
+	width: 15em;
+	height: 3em;
+}
+.element_2 {
+	margin-left: 15em;
+	margin-top: 2em;
+	width: 35em;
+	height: 3em;
+}
+.multiple-borders  {
+	margin-top: 1em;
+	margin-left: 10em;
+	box-shadow: inset x y blur spread color;
+	box-shadow: 3px 3px 3px #777;
+	box-shadow: 0px 0px 0px 7px #666699;
+	padding: 0.2em;
+}
